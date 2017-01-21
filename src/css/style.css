@@ -1,0 +1,9 @@
+@value colors: "./colors.css";
+
+.title {
+  composes: title-color from colors;
+}
+.paragraph {
+  composes: text-color from colors;
+  text-align:center;
+}
