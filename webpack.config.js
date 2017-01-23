@@ -33,8 +33,7 @@ module.exports = {
             loader: "css-loader",
             options: {
               modules: true,
-              camelCase: 'dashes',
-              sourceMap: true
+              camelCase: 'dashes'
             }
           }
         ]

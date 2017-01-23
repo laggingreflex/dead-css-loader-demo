@@ -1,9 +1,8 @@
-@value colors: "./colors.css";
-
 .title {
-  composes: title-color from colors;
+  composes: title-color from "./colors.css";
+  font-weight:bold;
 }
 .paragraph {
-  composes: text-color from colors;
+  composes: text-color from "./colors.css";
   text-align:center;
 }

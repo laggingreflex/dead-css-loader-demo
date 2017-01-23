@@ -17,8 +17,8 @@
     "babel-preset-stage-0": "^6.16.0",
     "webpack": "^2.2.0",
     "babel-loader": "^6.2.10",
-    "css-loader": "^0.26.1",
-    "style-loader": "^0.13.1",
-    "webpack-dead-css": "^0.1.0"
+    "css-loader": "git://github.com/simlrh/css-loader#es6",
+    "style-loader": "git://github.com/simlrh/style-loader#es6",
+    "webpack-dead-css": "git://github.com/simlrh/webpack-dead-css"
   }
 }
