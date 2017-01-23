@@ -29,7 +29,9 @@ document.getElementById('app').innerHTML = body;
 
 ## Output
 
-Run `npm run build` and inspect `dist/bundle.js`. You can see in the output below, webpack has determined that `title` is an unused export and so webpack-dead-css has removed it from the source in `$css.content`. The export itself will also be removed if you use the UglifyJS plugin.
+Run `npm run build` and inspect `dist/bundle.js`. You can see in the output below, webpack has determined that `title` is an unused export and so webpack-dead-css has removed it from the source in `$css.content`. An unused color declaration in `colors.css` is also removed.
+
+The unused exports themselves will also be removed if you use the UglifyJS plugin.
 
 ### dist/bundle.js
 ```js
