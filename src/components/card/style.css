@@ -1,0 +1,24 @@
+.card {
+	composes: ui card from '../../css/semantic.css';
+}
+.image {
+	composes: image from '../../css/semantic.css';
+}
+.fluidImage {
+	composes: ui fluid image from '../../css/semantic.css';
+}
+.content {
+	composes: content from '../../css/semantic.css';
+}
+.header {
+	composes: header from '../../css/semantic.css';
+}
+.description {
+	composes: description from '../../css/semantic.css';
+}
+.meta {
+	composes: meta from '../../css/semantic.css';
+}
+.bottomAttachedPrimaryButton {
+	composes: ui bottom attached primary button from '../../css/semantic.css';
+}

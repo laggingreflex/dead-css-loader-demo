@@ -1,0 +1,8 @@
+.container {
+	margin-top:50px;
+	margin-bottom:50px;
+	composes: ui container from '../../css/semantic.css';
+}
+.header {
+	composes: ui dividing header from '../../css/semantic.css';
+}

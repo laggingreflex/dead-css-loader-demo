@@ -1,6 +1,8 @@
-import { paragraph } from './css/style.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Page from './components/page';
 
-var body = `<p class="${ paragraph }">Vestibulum volutpat pretium libero.</p>`;
-
-var app = document.getElementById('app');
-app.innerHTML = body;
+ReactDOM.render(
+	<Page />,
+	document.getElementById('app')
+);

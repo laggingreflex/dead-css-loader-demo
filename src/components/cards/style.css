@@ -1,0 +1,3 @@
+.fourStackableLinkCards {
+	composes: ui four stackable link cards from '../../css/semantic.css';
+}
